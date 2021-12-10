@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#wrapper {
+    width: 90vw;
+    height: 90vh;
+    background-color: black;
+    overflow: hidden;
+    padding: 5vh 5vw;
+}
+
+#main {
+    margin: 5vh auto;
+    background-color: blueviolet;
+    color: white;
+    padding:5vh 5vw;
+    border-radius: 25px;
+    width: 800px;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    font-size: 3em;
+}
+
+#contacts {
+    width: 40%;
+    margin: 0 5% 5%;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 246px;
+}
+
+.person {
+    border-bottom: 1px solid whitesmoke;
+    margin: 5px;
+    padding: 5px;
+}
+.person:hover {
+    background-color:rgba(245, 245, 245, 0.527);
+}
+
+.person>*{
+    display: inline-block;
+    margin-right: 5px;
+}
+#addNew {
+    width: 50%;
+}
+
+.fas {
+    display: inline-block;
+}
+#addNew input {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#addNew button,
+.fa-user-times {
+    width:100px;
+    background-color: white;
+    color: blueviolet;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#addNew button:hover ,
+.fa-user-times:hover{
+    color: white;
+    background-color: rgb(167, 91, 238);
+    box-shadow: black 5px 10px 10px;
+}
+#addNew button:active,
+.fa-user-times:active {
+    color: white;
+    background-color: rgb(94, 50, 136);
+    box-shadow: black 5px 10px 10px;
+}
+
+
+.fa-user-times {
+    width: max-content;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: rgb(117, 37, 192); 
+  }
+
+
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
